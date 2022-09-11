@@ -146,7 +146,7 @@ svg {
     /*background-color: #0817188c;*/
     padding-top: 150px;
     padding-bottom: 100px;
-    background: url(/resources/img/bck-grn\ 1.png) rgba(195, 206, 206, 0.473);
+    background: url(../resources/img/bck-grn\ 1.png) rgba(195, 206, 206, 0.473);
     background-position:center ;
     background-repeat:no-repeat ;
     background-size: cover;
