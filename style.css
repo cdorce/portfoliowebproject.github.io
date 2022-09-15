@@ -294,18 +294,37 @@ margin-top: 5px;
     width: 100%;
     margin-top: 0px;
 }
-
+.portfo {
+    text-align: center;
+    
+}
 
 .projects-card {
-
-    background: #393b3bfd;
+    background: #eef1f19d;
     border-radius: 30px;
-    padding: 10px 15px;
-    color: white;
+    padding: 1em 2.5em;
+    color: #002e33;
     cursor: pointer;
-    font-weight: bold;
-    float: left;
+    font-weight: bold;  
     display: none;
+    margin: 3em 6em ;
+    box-shadow: 2px 1px 3px #dff8fa;
+}
+
+.cta-2{
+    padding: 0.3em .6em;
+    color: #002e33;
+    margin: .15em;
+    
+}
+
+
+.cta-2:hover{
+    border-bottom:1.5px solid #2ce68f;
+    padding: 0.3em .6em;
+    color: #002e33;
+    margin: .15em;
+    
 }
 
 
@@ -330,15 +349,16 @@ margin-top: 5px;
 }
 
 .btn:hover {
-    background-color: white;
-    border: 2px solid rgb(104, 230, 213);
+    background-color:#39dae6;
     border-radius: 10px;
     font-weight: 600;
-    color: #0097A7 ;
+    color: #046874 ;
 }
 
 .btn.active {
-    background-color: #032b30;
+    background-color: #046874;
+    border-radius: 10px;
+    font-weight: 600;
     color: #39dae6;
 }
 
