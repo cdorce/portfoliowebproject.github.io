@@ -300,9 +300,9 @@ margin-top: 5px;
 }
 
 .projects-card {
-    background: #eef1f19d;
-    border-radius: 30px;
-    padding: 1em 2.5em;
+    background: #ffffffbb;
+    border-radius: 15px;
+    padding: 1.5em 2.5em;
     color: #002e33;
     cursor: pointer;
     font-weight: bold;  
@@ -312,7 +312,7 @@ margin-top: 5px;
 }
 
 .cta-2{
-    padding: 0.3em .6em;
+   padding: 0.2em .4em;
     color: #002e33;
     margin: .15em;
     
@@ -321,7 +321,7 @@ margin-top: 5px;
 
 .cta-2:hover{
     border-bottom:1.5px solid #2ce68f;
-    padding: 0.3em .6em;
+    padding: 0.2em .4em;
     color: #002e33;
     margin: .15em;
     
