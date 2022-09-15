@@ -264,8 +264,6 @@ h4 {
     margin-top: 20px;
     width:  40%;
     height: 35px;
-    
-    
 
 }
 
@@ -280,52 +278,7 @@ margin-top: 5px;
 /* PORTFOLIO SECTION*/
 
 
-.portfolio-container {
-    text-align: center;
-}
 
-
-.select-list {
-    list-style: none;
-    display: inline-block;
-    padding-bottom: 30px;
-}
-
-.select-list li {
-    display: inline-block;
-    justify-content: flex;
-    margin-right: 10px;
-    border-bottom: 5px solid #f8f8f8;
-    padding-bottom: 5px;
-    font-weight:400 ;
-    
-
-}
-
-
-.select-list li:hover {
-    display: inline-block;
-    justify-content: flex;
-    margin-right: 10px;
-    border-bottom: 2px solid #38c5cafd;
-    padding-bottom: 5px;
-    transition: 1s ease-in-out;
-    font-weight:400 ;
-    cursor: pointer;
-
-}
-
-
-
-.projects-card {
-    background: white;
-    border-radius: 10px;
-    margin: 10px 40px 35px;
-    padding: 20px;
-   box-shadow: 2px 2.5px 3px #c6f3f760;
-   padding-bottom: 50px;
-   
-}
 
 .projects-card h3 {
     margin-top: 0px;
@@ -343,29 +296,54 @@ margin-top: 5px;
 }
 
 
-.projects-card a {
+.projects-card {
 
-    background: #38c5cafd;
+    background: #393b3bfd;
     border-radius: 30px;
     padding: 10px 15px;
     color: white;
     cursor: pointer;
     font-weight: bold;
+    float: left;
+    display: none;
 }
 
 
+.show {
+    display: block;
+}
 
-.projects-card a:hover {
-    
-    border: 1.5px solid #38c5cafd;
-    border-radius: 30px;
-    padding: 10px 15px;
-    color: #1b8c94;
+.portContainer {  
+    margin-top: 2em;
+    overflow: hidden;
+
+}
+
+.btn {
     cursor: pointer;
-    background-color: white;
-    font-weight: bold;
-    transition: 400ms ease-in-out;
+    outline: none;
+    background-color: #0097A7;
+    border: none;
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #f0f9fa;
 }
+
+.btn:hover {
+    background-color: white;
+    border: 2px solid rgb(104, 230, 213);
+    border-radius: 10px;
+    font-weight: 600;
+    color: #0097A7 ;
+}
+
+.btn.active {
+    background-color: #032b30;
+    color: #39dae6;
+}
+
+
 
 
 /* CONTACT SECTION*/
