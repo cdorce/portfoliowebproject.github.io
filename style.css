@@ -38,10 +38,10 @@ ul {
 
 
 .img-logo {
-    width: 70px;
+    width: 4em;
     height: auto;
     color: #f8f8f8;  
-    margin-left: 10px;
+    margin-left: .8em;
 }
 
 
@@ -67,8 +67,7 @@ header {
     margin: 0;
     cursor: pointer;
     padding: 0;
-    width: 65px;
-    
+    /*width: 65px;*/
 }
 
 
@@ -292,7 +291,7 @@ margin-top: 5px;
 
 .img-mac {
     width: 100%;
-    margin-top: 0px;
+    margin-top: 0;
 }
 .portfo {
     text-align: center;
@@ -307,7 +306,7 @@ margin-top: 5px;
     cursor: pointer;
     font-weight: bold;  
     display: none;
-    margin: 3em 6em ;
+    margin: 1.5em 6em ;
     box-shadow: 2px 1px 3px #dff8fa;
 }
 
@@ -342,10 +341,11 @@ margin-top: 5px;
     cursor: pointer;
     background-color: #0097A7;
     border: none;
-    padding: 1em 1.5em;
+    padding: .5em .7em;
     border-radius: 10px;
     font-weight: 600;
     color: #f0f9fa;
+    margin: .15em .6em;
 }
 
 .btn:hover {
