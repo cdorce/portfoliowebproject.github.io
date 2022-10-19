@@ -42,6 +42,7 @@ ul {
     height: auto;
     color: #f8f8f8;  
     margin-left: .8em;
+    padding: .5em;
 }
 
 
@@ -273,10 +274,7 @@ margin-top: 5px;
 }
 
 
-
 /* PORTFOLIO SECTION*/
-
-
 
 
 .projects-card h3 {
@@ -293,20 +291,22 @@ margin-top: 5px;
     width: 100%;
     margin-top: 0;
 }
-.portfo {
+.portfolio-section {
     text-align: center;
     
 }
 
+
+
 .projects-card {
     background: #ffffffbb;
     border-radius: 15px;
-    padding: 1.5em 2.5em;
+    padding: 1.5em 1em;
     color: #002e33;
     cursor: pointer;
     font-weight: bold;  
     display: none;
-    margin: 1.5em 6em ;
+    margin: 1.5em 2em ;
     box-shadow: 2px 1px 3px #dff8fa;
 }
 
@@ -334,6 +334,9 @@ margin-top: 5px;
 .portContainer {  
     margin-top: 2em;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -363,8 +366,6 @@ margin-top: 5px;
 }
 
 
-
-
 /* CONTACT SECTION*/
 
 .contact-container {
@@ -387,6 +388,7 @@ margin-top: 5px;
     padding: 10px;
     margin-bottom: 20px;
     margin-top: 10px;
+    outline: none;
 }
 
 
@@ -409,6 +411,7 @@ textarea {
     padding: 10px;
     margin-bottom: 50px;
     margin-top: 10px;
+    outline: none;
 }
 
 textarea:focus {
