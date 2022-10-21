@@ -649,6 +649,43 @@ h6 {
     font-weight: 200;
 }
 
+@media screen and (min-width:350px) {
+    body {background-color: rgb(90, 240, 220);}
+
+
+    .container {
+        padding: 10px 15px;
+    }
+
+
+    .nav {
+        
+    
+    }
+
+    .img-logo {
+        padding-top: 4.5px;
+        width:4em;
+        
+    }
+
+    .nav-menu {  
+        
+        
+    }
+
+    .hero-box {}
+
+    .left-side {}
+
+    .right-side {}
+
+    .container-skills {}
+
+    .experience {}
+
+    .skills {}
+}
 
 @media screen and (min-width:480px) {
     body {background-color: rgb(247, 243, 11);}
@@ -661,9 +698,16 @@ h6 {
 
 @media screen and (min-width:1024px) {
     body {background-color: rgb(29, 10, 112);}
+    .container {
+        padding: 15px 20px;
+    }
 }
 
 
 @media screen and (min-width:1200px) {
     body {background-color: rgb(148, 13, 25);}
+
+    .container {
+        padding: 15px 60px;
+    }
 }
