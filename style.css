@@ -55,11 +55,9 @@ li,a {
 
 
 .nav {
-    
     display: flex;
     justify-content: space-between;
-    
-    
+       
 }
 
 .nav .nav-menu{
@@ -87,26 +85,27 @@ li,a {
     padding: 7.5px 17px;
 }
 
+
 .hero-box {
+    margin-top: 180px;
     display: flex;
-    padding-top: 150px;
-    justify-content: space-between;
+    padding: 10px; 
 
 }
 
 .hero-box .right-side {
     width: 60%;
-    align-items: flex-start;
 }
 
 .hero-box .left-side {
     width: 40%;
+    margin-right: 20%;
 }
 
 
 /* ANIMATION*/
 
-.left-side h3, h2 {
+.left-side .anim1 {
     position: relative;
     padding-top: 0px;
     animation-name: hello;
@@ -121,7 +120,7 @@ li,a {
     100% {opacity: 1;}
 }
 
-.left-side p, h4{
+.left-side .anim2 {
     position: relative;
     animation-name: heroText;
     animation-duration: 2s;
@@ -266,14 +265,14 @@ hr {
 /* Experience SECTION */
 
 .container-skills {
-    padding: 5px 8px 5px 8px;
+    padding: 10% 20%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.experience {
-    margin-bottom: 4em;
 
-}
 
 h4 {
     font-weight: 500;
@@ -294,14 +293,31 @@ h4 {
 
 /* SKILLS AND TOOLS SECTION */
 
+.experience, .skills {
+    background-color: #a8d2d649;
+    box-shadow: 2px 3px 3px rgb(204, 234, 243);
+    margin-right: 20px;
+    border-bottom-right-radius: 50px;
+    padding: 30px 40px;
+    transition: 400ms ease-in;
+}
+
+.experience:hover {
+    background-color: #daffee;  
+    box-shadow: 2px 3px 3px rgb(238, 232, 232);
+}
+
+.skills:hover {
+    background-color: #daffee;
+    box-shadow: 2px 3px 3px rgb(238, 232, 232);
+}
+
 
 .skills-tools {
     display: grid;
-    grid-template-columns: repeat(3, 120px);
+    grid-template-columns: repeat(4, 120px);
     justify-content: center;
-    
-    
-    
+   
 }
 
 .skills-container {
@@ -317,8 +333,6 @@ h4 {
 
 .skills-container:hover {
     background-color: #fafafae5;
-
-
 
 }
 
@@ -618,4 +632,17 @@ textarea:focus {
 h6 {
     color: #5ef0e8;
     font-weight: 200;
+}
+
+
+
+@media only screen and (max-width:440px) {
+    .container-skills .hero-box {
+        display: block;
+        
+    }
+
+    .hero-box {
+        display: block;
+    }
 }
