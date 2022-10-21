@@ -98,7 +98,7 @@ li,a {
     display: flex;
     flex-direction: row;
     padding: 10px; 
-    
+
 }
 
 .hero-box .right-side {
@@ -650,9 +650,20 @@ h6 {
 }
 
 
-@media screen and (max-width:750px) {
-    body {
-        background-color: red;
-    }
-    
+@media screen and (min-width:480px) {
+    body {background-color: rgb(247, 243, 11);}
+}
+
+
+@media screen and (min-width:768px) {
+    body {background-color: rgb(14, 112, 10);}
+}
+
+@media screen and (min-width:1024px) {
+    body {background-color: rgb(29, 10, 112);}
+}
+
+
+@media screen and (min-width:1200px) {
+    body {background-color: rgb(148, 13, 25);}
 }
