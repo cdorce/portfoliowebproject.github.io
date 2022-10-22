@@ -111,7 +111,7 @@ li,a {
 }
 
 
-/* ANIMATION
+/* ANIMATION*/
 
 .left-side .anim1 {
     position: relative;
@@ -168,7 +168,7 @@ li,a {
     0% {right: -1000px;}
     100% {right: 0;}
 }
-*/
+
 
 .hero-box .left-side h2{
     font-size: 35px;
